@@ -20,17 +20,21 @@ body {
 }
 
 .chartCard {
-    width: 100vw;
-    height: calc(100vh);
+    width: calc(190vw-20px);
     background: rgb(202, 255, 213);
     display: flex;
     align-items: center;
     justify-content: center;
-  }
-  .chartBox {
-    width: 80vw;
+    flex-direction: column;
+}
+
+.chartBox {
+    margin-top: 7rem;
+    margin-bottom: 7rem;
+
+    width: 70vw;
     padding: 20px;
     border-radius: 20px;
     border: solid 3px rgb(26, 255, 102);
     background: white;
-  }
+}

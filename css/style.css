@@ -16,15 +16,17 @@ body {
   box-sizing: border-box; }
 
 .chartCard {
-  width: 100vw;
-  height: calc(100vh);
+  width: calc(190vw-20px);
   background: #caffd5;
   display: flex;
   align-items: center;
-  justify-content: center; }
+  justify-content: center;
+  flex-direction: column; }
 
 .chartBox {
-  width: 80vw;
+  margin-top: 7rem;
+  margin-bottom: 7rem;
+  width: 70vw;
   padding: 20px;
   border-radius: 20px;
   border: solid 3px #1aff66;
