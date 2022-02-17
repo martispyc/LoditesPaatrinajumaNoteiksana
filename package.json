@@ -1,0 +1,17 @@
+{
+  "name": "loditespaatrinajumanoteiksana",
+  "version": "1.0.0",
+  "description": "fizikas darbs",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass": "node-sass sass/main.scss css/style.css -w"
+  },
+  "author": "martispyc",
+  "license": "MIT",
+  "devDependencies": {
+    "node-sass": "^7.0.1"
+  },
+  "dependencies": {
+    "chart.js": "^3.7.1"
+  }
+}
