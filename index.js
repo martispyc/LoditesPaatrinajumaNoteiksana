@@ -33,7 +33,7 @@ const data1 = {
       pointHoverRadius: 10
     },
     {
-      label: 'TOERĒTIKSAIS STIKLA PAĀTRINĀJUMS',
+      label: 'TOERĒTISKAIS STIKLA PAĀTRINĀJUMS',
       backgroundColor: 'rgb(113, 151, 255)',
       borderColor: 'rgb(113, 151, 255)',
       data: stiklsAT,
@@ -55,7 +55,7 @@ const data2 = {
     pointHoverRadius: 10
   },
   {
-    label: 'TOERĒTIKSAIS GUMIJAS PAĀTRINĀJUMS',
+    label: 'TOERĒTISKAIS GUMIJAS PAĀTRINĀJUMS',
     backgroundColor: 'rgb(113, 151, 255)',
     borderColor: 'rgb(113, 151, 255)',
     data: gumijaAT,
